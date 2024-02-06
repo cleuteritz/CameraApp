@@ -1,4 +1,5 @@
 {
+    "id": "7890ace6-b154-41b5-9fa1-5d5a1261cae1",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -30,7 +31,7 @@
             "justifyContent": "center",
             "alignItems": "center",
             "display": "flex",
-            "backgroundColor": "rgba(155, 155, 155, 1)"
+            "backgroundColor": "rgba(102, 70, 129, 1)"
         },
         "ShowStatusBar": true,
         "StatusBarStyle": "default",
@@ -53,9 +54,59 @@
             "headerStyle": {}
         },
         "tabNavigationOptions": {},
-        "BackgroundColor": "rgba(155, 155, 155, 1)"
+        "BackgroundColor": "rgba(102, 70, 129, 1)",
+        "Scrollable": false
     },
     "children": [
+        {
+            "type": "TimePicker",
+            "label": "Time Input",
+            "translatedName": "Time Input",
+            "properties": {
+                "FormatStyle": "h:mm A",
+                "Height": 30,
+                "Width": 74,
+                "Visible": true,
+                "X": 149,
+                "Y": 22,
+                "RelativeX": 149,
+                "RelativeY": 22,
+                "ResizeMode": "STRETCH",
+                "FontSize": 16,
+                "Color": "rgba(255, 255, 255, 1)",
+                "style": {
+                    "marginTop": 0,
+                    "marginBottom": 0,
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                    "paddingTop": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "shadowColor": "rgba(0, 0, 0, 0)",
+                    "shadowOpacity": 0,
+                    "scaledShadowOpacity": 0,
+                    "shadowRadius": 0,
+                    "shadowOffset": {
+                        "width": 0,
+                        "height": 0
+                    },
+                    "position": "absolute",
+                    "left": "38%",
+                    "top": "0%",
+                    "display": "flex",
+                    "fontSize": 16,
+                    "color": "rgba(255, 255, 255, 1)"
+                },
+                "ParentId": "7890ace6-b154-41b5-9fa1-5d5a1261cae1",
+                "position": "absolute",
+                "edgeOffsets": 22.000000000000004
+            },
+            "children": [],
+            "id": "a4da6e0c-81ba-48c9-bf47-9857a8dd477b",
+            "thunkableVersion": 443,
+            "name": "Time_Input1"
+        },
         {
             "type": "Button",
             "translatedName": "Button",
@@ -69,10 +120,10 @@
                 "Height": 33,
                 "Width": 126,
                 "Visible": true,
-                "X": 1,
-                "Y": 20,
-                "RelativeX": 1,
-                "RelativeY": 20,
+                "X": 0,
+                "Y": 19,
+                "RelativeX": 0,
+                "RelativeY": 19,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -103,7 +154,7 @@
                 "Disabled": false,
                 "ParentId": "7890ace6-b154-41b5-9fa1-5d5a1261cae1",
                 "position": "absolute",
-                "edgeOffsets": 20
+                "edgeOffsets": 19.999999999999996
             },
             "children": [],
             "id": "06c36578-53ff-4359-b72a-4efbddd1f85c",
@@ -174,7 +225,7 @@
                 "Font": "",
                 "CustomFont": "",
                 "LineHeight": 1,
-                "Color": "rgba(0, 0, 0, 1)",
+                "Color": "rgba(255, 255, 255, 1)",
                 "TextAlign": "center",
                 "Height": 31,
                 "Width": 230,
@@ -185,7 +236,7 @@
                 "RelativeY": 547,
                 "ResizeMode": "STRETCH",
                 "style": {
-                    "color": "rgba(0, 0, 0, 1)",
+                    "color": "rgba(255, 255, 255, 1)",
                     "fontSize": 18,
                     "fontStyle": "normal",
                     "textShadowOffset": {},
@@ -451,7 +502,7 @@
                 "Font": "",
                 "CustomFont": "",
                 "LineHeight": 1,
-                "Color": "rgba(0, 0, 0, 1)",
+                "Color": "rgba(255, 255, 255, 1)",
                 "Height": 87,
                 "Width": 375,
                 "Visible": true,
@@ -461,7 +512,7 @@
                 "RelativeY": 580,
                 "ResizeMode": "STRETCH",
                 "style": {
-                    "color": "rgba(0, 0, 0, 1)",
+                    "color": "rgba(255, 255, 255, 1)",
                     "fontSize": 18,
                     "fontStyle": "normal",
                     "textShadowOffset": {},
@@ -661,7 +712,6 @@
             "name": "Image1"
         }
     ],
-    "id": "7890ace6-b154-41b5-9fa1-5d5a1261cae1",
     "thunkableVersion": 443,
     "name": "Photo"
 }
