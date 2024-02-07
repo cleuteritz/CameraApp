@@ -7,7 +7,7 @@
         "Height": "Fill container",
         "Width": "Fill container",
         "Layout": "column",
-        "BackgroundColor": "rgba(102, 70, 129, 1)",
+        "BackgroundColor": "rgba(255, 255, 255, 1)",
         "Justification": "center",
         "Alignment": "center",
         "Visible": true,
@@ -32,7 +32,7 @@
             "justifyContent": "center",
             "alignItems": "center",
             "display": "flex",
-            "backgroundColor": "rgba(102, 70, 129, 1)"
+            "backgroundColor": "rgba(255, 255, 255, 1)"
         },
         "ShowStatusBar": true,
         "StatusBarStyle": "default",
